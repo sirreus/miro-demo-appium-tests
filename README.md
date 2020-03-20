@@ -6,15 +6,15 @@ On the command line from the project directory:
 
 - To setup this project (package dependencies), use the command:
 
-  npm i
+  `npm i`
 
 - To local install Appium, use the command:
 
-  npm run setup
+  `npm run setup`
 
 - To run tests, use the command:
 
-  npm run test
+  `npm run test`
 
 The behavior of all tests was based on this screen of the A\B testing version:
 
