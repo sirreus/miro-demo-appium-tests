@@ -4,17 +4,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "setup": "npm install -g appium & npm install -g appium-doctor",
     "test": "codeceptjs run --steps"
   },
   "dependencies": {
     "appium": "^1.17.0",
-    "appium-doctor": "1.13.1",
+    "appium-doctor": "^1.14.0",
     "codeceptjs": "^2.5.0",
     "codeceptjs-assert": "0.0.4",
     "selenium-webdriver": "^3.0.1",
     "webdriverio": "^5.21.0"
   },
   "devDependencies": {
+    "@wdio/cli": "^5.22.3",
     "@wdio/selenium-standalone-service": "^5.16.10"
   }
 }

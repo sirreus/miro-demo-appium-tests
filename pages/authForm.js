@@ -6,5 +6,9 @@ module.exports = {
     I.seeElement('//android.widget.TextView[@text="Sign up"]');
     I.seeElement('//android.widget.TextView[@text="email"]');
     I.seeElement('//android.widget.TextView[@text="password"]');
-  }
+  },
+
+  inputEmail(email) {},
+  inputPassword(password) {},
+  clickOnSignInButton() {}
 };

@@ -15,12 +15,23 @@ exports.config = {
       user: "kirillegorov3",
       key: "VDs5soy7MqXa3m6qp5sd",
       device: "Google Pixel 3"
+
+      // app: "Miro_v3.6.6.apk",
+      // platform: "Android",
+      // desiredCapabilities: {
+      //   app: "Miro_v3.6.6.apk",
+      //   appPackage: "com.realtimeboard",
+      //   appActivity: "MainActivity",
+      //   deviceName: "Google Pixel 3",
+      //   platformVersion: "9.0"
+      // }
     }
   },
   include: {
     I: "./steps_file.js",
     AuthForm: "./pages/authForm.js",
-    SignUpForm: "./pages/signUpForm.js"
+    SignUpForm: "./pages/signUpForm.js",
+    BoardsScreen: "./pages/boardsScreen.js"
   },
   bootstrap: null,
   mocha: {},
