@@ -18,4 +18,4 @@ On the command line from the project directory:
 
 The behavior of all tests was based on this screen of the A\B testing version:
 
-![auth screen](/screens/A-B-screen_1.png)
+![auth screen](/screens/A-B_screen_1.png)

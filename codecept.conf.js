@@ -23,7 +23,8 @@ exports.config = {
       //   appPackage: "com.realtimeboard",
       //   appActivity: "MainActivity",
       //   deviceName: "Google Pixel 3",
-      //   platformVersion: "9.0"
+      //   platformVersion: "9.0",
+      //   automationName: "UiAutomator2"
       // }
     }
   },

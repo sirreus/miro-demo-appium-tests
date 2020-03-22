@@ -5,11 +5,10 @@
   "private": true,
   "scripts": {
     "setup": "npm install -g appium & npm install -g appium-doctor",
+    "clean": "rm -rf node_modules && rm -f package-lock.json && npm install",
     "test": "codeceptjs run --steps"
   },
   "dependencies": {
-    "appium": "^1.17.0",
-    "appium-doctor": "^1.14.0",
     "codeceptjs": "^2.5.0",
     "codeceptjs-assert": "0.0.4",
     "selenium-webdriver": "^3.0.1",

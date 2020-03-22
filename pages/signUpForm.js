@@ -81,7 +81,7 @@ module.exports = {
     I.tap(this.alertPopup.okButton);
   },
 
-  alertPopupShouldbepresent(text) {
+  alertPopupShouldBePresent(text) {
     I.seeTextEquals(text, this.commonAlertPopup.title);
     I.seeElement(this.commonAlertPopup.okButton);
     I.tap(this.commonAlertPopup.okButton);
