@@ -12,7 +12,7 @@
     "codeceptjs": "^2.5.0",
     "codeceptjs-assert": "0.0.4",
     "selenium-webdriver": "^3.0.1",
-    "webdriverio": "^5.21.0"
+    "webdriverio": "^5.22.0"
   },
   "devDependencies": {
     "@wdio/cli": "^5.22.3",

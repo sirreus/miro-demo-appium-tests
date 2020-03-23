@@ -4,7 +4,7 @@ Feature("Miro android app Login tests");
 //   AuthForm.mainAuthFormShouldBePresent();
 // });
 
-Scenario.only("Check login screen A/B testing", async AuthForm => {
+Scenario("Check login screen A/B testing", async AuthForm => {
   const magicLink = await AuthForm.checkMagicLinkButton();
   const byEmail = await AuthForm.checkContinueWithEmailButton();
   console.log(magicLink, byEmail);
