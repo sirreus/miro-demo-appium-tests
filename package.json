@@ -9,7 +9,7 @@
     "test": "codeceptjs run --steps"
   },
   "dependencies": {
-    "codeceptjs": "^2.5.0",
+    "codeceptjs": "^3.0.0",
     "codeceptjs-assert": "0.0.4",
     "selenium-webdriver": "^3.0.1",
     "webdriverio": "^5.22.0"
